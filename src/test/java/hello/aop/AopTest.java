@@ -18,7 +18,8 @@ import org.springframework.context.annotation.Import;
 //@Import(AspectV2.class)
 //@Import(AspectV3.class)
 //@Import(AspectV4Pointcut.class)
-@Import({AspectV4Order.LogAspect.class, AspectV4Order.TxAspect.class})
+//@Import({AspectV4Order.LogAspect.class, AspectV4Order.TxAspect.class})
+@Import(AspectV6Advice.class)
 public class AopTest {
 
     @Autowired
